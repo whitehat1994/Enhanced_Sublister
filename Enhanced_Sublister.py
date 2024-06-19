@@ -1,8 +1,7 @@
 import warnings
-from requests.packages.urllib3.exceptions import InsecureRequestWarning, RequestsDependencyWarning
+from urllib3.exceptions import InsecureRequestWarning
 
 # Suppress only the specific warning
-warnings.filterwarnings("ignore", category=RequestsDependencyWarning)
 warnings.filterwarnings("ignore", category=InsecureRequestWarning)
 
 import argparse
