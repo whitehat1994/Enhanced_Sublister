@@ -25,14 +25,3 @@ python enhanced_sublister.py example.com -o results.csv
 
 # Output Format
 The script outputs the subdomain enumeration results to the console and optionally saves them to a file. If saved to a file, the results are stored in either CSV or TXT format based on the file extension provided.
-
-## CSV
-Subdomain,HTTP Status,HTTPS Status,CNAME
-subdomain1.example.com,200,200,example.com
-
-## Text
-Subdomain: subdomain1.example.com
-HTTP Status Code: 200
-HTTPS Status Code: 200
-CNAME: example.com
-----------------------------------------
