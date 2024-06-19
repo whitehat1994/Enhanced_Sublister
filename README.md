@@ -36,9 +36,3 @@ HTTP Status Code: 200
 HTTPS Status Code: 200
 CNAME: example.com
 ----------------------------------------
-Subdomain: subdomain2.example.com
-HTTP Status Code: 404
-HTTPS Status Code: 404
-CNAME: None
-----------------------------------------
-
