@@ -16,9 +16,7 @@ Enhanced Subdomain Enumerator is a Python script that allows you to enumerate su
 3. pip install -r requirements.txt
 
 ## Usage
-python enhanced_sublister.py <domain> [-o OUTPUT]
-    <domain>: Base domain (e.g., example.com)
-    -o, --output OUTPUT: Output file to save results (optional)
+python enhanced_sublister.py <domain> [-o OUTPUT] (-o is optional)
 
 ## Example:
 python enhanced_sublister.py example.com -o results.csv
